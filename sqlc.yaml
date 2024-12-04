@@ -5,5 +5,5 @@ sql:
     schema: "./migrations/schema.sql"
     gen:
       go:
-        package: "models"
-        out: "internal/models"
+        package: "database"
+        out: "./internal/database"

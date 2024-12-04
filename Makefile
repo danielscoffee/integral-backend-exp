@@ -2,7 +2,7 @@ run:
 	@go run cmd/main.go
 
 migrations:
-	$sqlc generate
+	@sqlc generate
 
 docker:
 	@docker-compose up -build
